@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+body{
+  background-image: url("https://wallpaperaccess.com/full/1833588.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.content{
+  margin : 100px auto;
+}
+.gtext{
+  color: #FCF1F1;
+  text-shadow: 8px 2px  #892CDC;
+}
+.example1{
+  border: 1px solid;
+  box-shadow: 8px 15px #FCF1F1;
+  box-sizing: content-box;
+  font-size: 10vw;
+  padding: 50px;
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:40px; top:0px;}
+  50%  {left:40px; top:40px;}
+  75%  {left:0px; top:40px;}
+  100% {left:0px; top:0px;}
+}
+@viewport{
+  width: 100%;
+  zoom : 1.0;
+}
+p{
+  color: #FCF1F1;
+  font-size: 20px;
+  font-family: 'Syne Mono',monospace;
+  text-shadow: 8px 2px #892CDC;
+  text-shadow: 25;
+  text-align: center;
+  padding: 10px
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+hr{
+  box-shadow: 8px 8px grey;
+  border-style: dotted;
+  border-width: thick;
+  border-bottom: none;
+  color: #FCF1F1;
+  width: 10%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+img{
+  box-shadow:8px 8px #892CDC;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+table{
+  border-style: groove;
+  box-shadow:8px 8px  #FCF1F1;
+  margin-right: inherit;
+  margin-left: inherit;
+  max-width:100%;height:auto;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
